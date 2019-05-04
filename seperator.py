@@ -6,9 +6,9 @@ import cv2
 import matplotlib.pyplot as plt
 import pytesseract
 pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
-path = 'C:/Users/saitej/Desktop/source'
-dst1='C:/Users/saitej/Desktop/imp'
-dst2='C:/Users/saitej/Desktop/nimp'
+path = #source path
+dst1=#important files path
+dst2=#unimportant files path
 files = []
 # r=root, d=directories, f = files
 for r, d, f in os.walk(path):
